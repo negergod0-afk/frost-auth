@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "frost",
+  "version": "1.0.0",
+  "name": "Frost Client",
+  "description": "A basic Minecraft client with ESP features.",
+  "authors": [
+    "Author"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/zenya/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.zenya.ZenyaClient"
+    ]
+  },
+  "mixins": [
+    "frost.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

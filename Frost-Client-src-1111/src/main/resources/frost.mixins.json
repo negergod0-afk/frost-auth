@@ -1,0 +1,41 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.zenya.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "frost-refmap.json",
+  "client": [
+    "WorldRendererMixin",
+    "BlockRenderManagerMixin",
+    "WorldMixin",
+    "WeatherRenderingMixin",
+    "ClientConnectionMixin",
+    "ClientWorldMixin",
+    "AbstractClientPlayerEntityMixin",
+    "CameraMixin",
+    "EntityMixin",
+    "EntityRendererMixin",
+    "LightningEntityRendererMixin",
+    "LivingEntityMixin",
+    "PlayerEntityRendererMixin",
+    "PlayerListEntryMixin",
+    "TextRendererMixin",
+    "GameRendererAccessor",
+    "HandledScreenAccessor",
+    "InputAccessor",
+    "MinecraftClientAccessor",
+    "MinecraftClientAttackMixin",
+    "KeyboardInputMixin",
+    "MouseMixin",
+    "ClientPlayerEntityMixin",
+    "LabelCommandRendererMixin",
+    "ChatHudMixin",
+    "HeldItemRendererMixin",
+    "InGameOverlayRendererMixin",
+
+    "InGameHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

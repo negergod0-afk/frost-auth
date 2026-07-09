@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "frost-loader",
+  "version": "${version}",
+  "name": "Frost Client",
+  "description": "Frost Client loader.",
+  "authors": ["Frost"],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/frost-loader/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "frost.loader.mod.FrostLoaderMod"
+    ]
+  },
+  "mixins": [
+    "frost-loader.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

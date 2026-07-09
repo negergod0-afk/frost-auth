@@ -1,0 +1,7 @@
+node_modules
+bot/node_modules
+server/node_modules
+loader-mod
+Frost-Client-src-1111
+bot/InjectedLoader.jar
+bot/LoaderTemplate.jar
