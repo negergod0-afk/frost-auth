@@ -7,7 +7,7 @@ const { DatabaseSync } = require('node:sqlite');
 const path = require('path');
 const crypto = require('./crypto');
 
-const dbPath = path.resolve(__dirname, 'frost_auth.db');
+const dbPath = process.env.DB_PATH || path.resolve(__dirname, 'frost_auth.db');
 const db = new DatabaseSync(dbPath);
 
 // ---- Schema Setup ----

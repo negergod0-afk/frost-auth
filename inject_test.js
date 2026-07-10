@@ -27,7 +27,7 @@ const TARGETS = {
 // ── Values to inject ─────────────────────────────────────────────────────────
 // Edit these before running for a real user build.
 const VALUES = {
-    LICENSE:   process.env.USER_LICENSE   || "Frost+Lifetime-4iBuLiV1urSRA1uGuL2BAxNkPvSZrbcD",
+    LICENSE:   process.env.USER_LICENSE   || "Frost+Lifetime--qiOlOokkSAfZE9CpJM2WWAiWxhvLe3E",
     DISCORD:   process.env.USER_DISCORD   || "123456789012345678",
     AUTH_HOST: process.env.AUTH_HOST      || "127.0.0.1",
     TCP_PORT:  process.env.AUTH_TCP_PORT  || "4000",
